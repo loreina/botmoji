@@ -9,7 +9,7 @@ module.exports = (phrase = 'happy', context, callback) => {
   var newPhrase = phrase.split(" ");
   for (var i = 0; i < newPhrase.length; i++) {
     if (emoji[newPhrase[i]]) {
-      newPhrase[i] += emoji[newPhrase[i]].char;
+      newPhrase[i] +=  " " + emoji[newPhrase[i]].char + " ";
     }
   }
   newPhrase = newPhrase.join(" ");

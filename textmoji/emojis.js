@@ -35,13 +35,13 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "people"
   },
-  "grin": {
+  "awesome": {
     "keywords": ["face", "happy", "joy", "funny", "haha", "laugh", "like", ":D", ":)"],
     "char": "😄",
     "fitzpatrick_scale": false,
     "category": "people"
   },
-  "sweat": {
+  "nervous": {
     "keywords": ["face", "hot", "happy", "laugh", "sweat", "smile", "relief"],
     "char": "😅",
     "fitzpatrick_scale": false,
@@ -2807,13 +2807,13 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "sunny": {
+  "sun": {
     "keywords": ["weather", "nature", "brightness", "summer", "beach", "spring"],
     "char": "☀️",
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "sun_behind_small_cloud": {
+  "sunny": {
     "keywords": ["weather"],
     "char": "🌤",
     "fitzpatrick_scale": false,
@@ -2831,7 +2831,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "sun_behind_rain_cloud": {
+  "rainy": {
     "keywords": ["weather"],
     "char": "🌦",
     "fitzpatrick_scale": false,
@@ -2843,19 +2843,19 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "cloud_with_rain": {
+  "raining": {
     "keywords": ["weather"],
     "char": "🌧",
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "cloud_with_lightning_and_rain": {
+  "thunderstorm": {
     "keywords": ["weather", "lightning"],
     "char": "⛈",
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "cloud_with_lightning": {
+  "lightning": {
     "keywords": ["weather", "thunder"],
     "char": "🌩",
     "fitzpatrick_scale": false,
@@ -2873,19 +2873,19 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "boom": {
+  "bam": {
     "keywords": ["bomb", "explode", "explosion", "collision", "blown"],
     "char": "💥",
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "snowflake": {
+  "snow": {
     "keywords": ["winter", "season", "cold", "weather", "christmas", "xmas"],
     "char": "❄️",
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "cloud_with_snow": {
+  "snowing": {
     "keywords": ["weather"],
     "char": "🌨",
     "fitzpatrick_scale": false,
@@ -2909,7 +2909,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "dash": {
+  "quick": {
     "keywords": ["wind", "air", "fast", "shoo", "fart", "smoke", "puff"],
     "char": "💨",
     "fitzpatrick_scale": false,
@@ -2921,7 +2921,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "fog": {
+  "foggy": {
     "keywords": ["weather"],
     "char": "🌫",
     "fitzpatrick_scale": false,
@@ -2939,13 +2939,19 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "droplet": {
+  "drop": {
     "keywords": ["water", "drip", "faucet", "spring"],
     "char": "💧",
     "fitzpatrick_scale": false,
     "category": "animals_and_nature"
   },
-  "sweat_drops": {
+  "sweat": {
+    "keywords": ["water", "drip", "oops"],
+    "char": "💦",
+    "fitzpatrick_scale": false,
+    "category": "animals_and_nature"
+  },
+  "rain": {
     "keywords": ["water", "drip", "oops"],
     "char": "💦",
     "fitzpatrick_scale": false,
@@ -2975,7 +2981,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "tangerine": {
+  "orange": {
     "keywords": ["food", "fruit", "nature", "orange"],
     "char": "🍊",
     "fitzpatrick_scale": false,
@@ -3041,7 +3047,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "kiwi_fruit": {
+  "kiwi": {
     "keywords": ["fruit", "food"],
     "char": "🥝",
     "fitzpatrick_scale": false,
@@ -3083,7 +3089,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "hot_pepper": {
+  "pepper": {
     "keywords": ["food", "spicy", "chilli", "chili"],
     "char": "🌶",
     "fitzpatrick_scale": false,
@@ -3113,7 +3119,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "honey_pot": {
+  "honey": {
     "keywords": ["bees", "sweet", "kitchen"],
     "char": "🍯",
     "fitzpatrick_scale": false,
@@ -3131,7 +3137,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "baguette_bread": {
+  "baguette": {
     "keywords": ["food", "bread", "french"],
     "char": "🥖",
     "fitzpatrick_scale": false,
@@ -3257,7 +3263,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "green_salad": {
+  "salad": {
     "keywords": ["food", "healthy", "lettuce"],
     "char": "🥗",
     "fitzpatrick_scale": false,
@@ -3287,7 +3293,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "fortune_cookie": {
+  "fortune": {
     "keywords": ["food", "prophecy"],
     "char": "🥠",
     "fitzpatrick_scale": false,
@@ -3311,7 +3317,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "rice_ball": {
+  "onigiri": {
     "keywords": ["food", "japanese"],
     "char": "🍙",
     "fitzpatrick_scale": false,
@@ -3395,7 +3401,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "chocolate_bar": {
+  "chocolate": {
     "keywords": ["food", "snack", "dessert", "sweet"],
     "char": "🍫",
     "fitzpatrick_scale": false,
@@ -3425,7 +3431,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "milk_glass": {
+  "milk": {
     "keywords": ["beverage", "drink", "cow"],
     "char": "🥛",
     "fitzpatrick_scale": false,
@@ -3443,19 +3449,19 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "clinking_glasses": {
+  "cheers": {
     "keywords": ["beverage", "drink", "party", "alcohol", "celebrate", "cheers"],
     "char": "🥂",
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "wine_glass": {
+  "wine": {
     "keywords": ["drink", "beverage", "drunk", "alcohol", "booze"],
     "char": "🍷",
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "tumbler_glass": {
+  "whiskey": {
     "keywords": ["drink", "beverage", "drunk", "alcohol", "liquor", "booze", "bourbon", "scotch", "whisky", "glass", "shot"],
     "char": "🥃",
     "fitzpatrick_scale": false,
@@ -3467,7 +3473,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "tropical_drink": {
+  "cocktail": {
     "keywords": ["beverage", "cocktail", "summer", "beach", "alcohol", "booze", "mojito"],
     "char": "🍹",
     "fitzpatrick_scale": false,
@@ -3515,7 +3521,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "food_and_drink"
   },
-  "fork_and_knife": {
+  "cutlery": {
     "keywords": ["cutlery", "kitchen"],
     "char": "🍴",
     "fitzpatrick_scale": false,
@@ -3611,7 +3617,7 @@ module.exports = {
     "fitzpatrick_scale": true,
     "category": "activity"
   },
-  "ping_pong": {
+  "pingpong": {
     "keywords": ["sports", "pingpong"],
     "char": "🏓",
     "fitzpatrick_scale": false,
@@ -3623,13 +3629,13 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "activity"
   },
-  "goal_net": {
+  "net": {
     "keywords": ["sports"],
     "char": "🥅",
     "fitzpatrick_scale": false,
     "category": "activity"
   },
-  "ice_hockey": {
+  "hockey": {
     "keywords": ["sports"],
     "char": "🏒",
     "fitzpatrick_scale": false,
@@ -3665,13 +3671,13 @@ module.exports = {
     "fitzpatrick_scale": true,
     "category": "activity"
   },
-  "person_fencing": {
+  "fencing": {
     "keywords": ["sports", "fencing", "sword"],
     "char": "🤺",
     "fitzpatrick_scale": false,
     "category": "activity"
   },
-  "women_wrestling": {
+  "wrestling": {
     "keywords": ["sports", "wrestlers"],
     "char": "🤼‍♀️",
     "fitzpatrick_scale": true,
@@ -3911,19 +3917,19 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "activity"
   },
-  "1st_place_medal": {
+  "gold": {
     "keywords": ["award", "winning", "first"],
     "char": "🥇",
     "fitzpatrick_scale": false,
     "category": "activity"
   },
-  "2nd_place_medal": {
+  "silver": {
     "keywords": ["award", "second"],
     "char": "🥈",
     "fitzpatrick_scale": false,
     "category": "activity"
   },
-  "3rd_place_medal": {
+  "bronze": {
     "keywords": ["award", "third"],
     "char": "🥉",
     "fitzpatrick_scale": false,
@@ -3953,7 +3959,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "activity"
   },
-  "performing_arts": {
+  "arts": {
     "keywords": ["acting", "theater", "drama"],
     "char": "🎭",
     "fitzpatrick_scale": false,
@@ -3965,13 +3971,13 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "activity"
   },
-  "circus_tent": {
+  "circus": {
     "keywords": ["festival", "carnival", "party"],
     "char": "🎪",
     "fitzpatrick_scale": false,
     "category": "activity"
   },
-  "woman_juggling": {
+  "juggling": {
     "keywords": ["juggle", "balance", "skill", "multitask"],
     "char": "🤹‍♀️",
     "fitzpatrick_scale": true,
@@ -4079,7 +4085,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "activity"
   },
-  "red_car": {
+  "car": {
     "keywords": ["red", "transportation", "vehicle"],
     "char": "🚗",
     "fitzpatrick_scale": false,
@@ -4157,7 +4163,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "travel_and_places"
   },
-  "kick_scooter": {
+  "scooter": {
     "keywords": ["vehicle", "kick", "razor"],
     "char": "🛴",
     "fitzpatrick_scale": false,
@@ -4205,19 +4211,19 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "travel_and_places"
   },
-  "oncoming_taxi": {
+  "taxi": {
     "keywords": ["vehicle", "cars", "uber"],
     "char": "🚖",
     "fitzpatrick_scale": false,
     "category": "travel_and_places"
   },
-  "aerial_tramway": {
+  "tramway": {
     "keywords": ["transportation", "vehicle", "ski"],
     "char": "🚡",
     "fitzpatrick_scale": false,
     "category": "travel_and_places"
   },
-  "mountain_cableway": {
+  "cablecar": {
     "keywords": ["transportation", "vehicle", "ski"],
     "char": "🚠",
     "fitzpatrick_scale": false,
@@ -4517,7 +4523,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "travel_and_places"
   },
-  "japan": {
+  "japan!": {
     "keywords": ["nation", "country", "japanese", "asia"],
     "char": "🗾",
     "fitzpatrick_scale": false,
@@ -4589,7 +4595,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "travel_and_places"
   },
-  "city_sunset": {
+  "sunset": {
     "keywords": ["photo", "evening", "sky", "buildings"],
     "char": "🌆",
     "fitzpatrick_scale": false,
@@ -4613,7 +4619,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "travel_and_places"
   },
-  "milky_way": {
+  "milkyway": {
     "keywords": ["photo", "space", "stars"],
     "char": "🌌",
     "fitzpatrick_scale": false,
@@ -4649,7 +4655,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "travel_and_places"
   },
-  "european_castle": {
+  "castle": {
     "keywords": ["building", "royalty", "history"],
     "char": "🏰",
     "fitzpatrick_scale": false,
@@ -4799,7 +4805,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "iphone": {
+  "iPhone": {
     "keywords": ["technology", "apple", "gadgets", "dial"],
     "char": "📱",
     "fitzpatrick_scale": false,
@@ -4811,7 +4817,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "computer": {
+  "laptop": {
     "keywords": ["technology", "laptop", "screen", "display", "monitor"],
     "char": "💻",
     "fitzpatrick_scale": false,
@@ -4913,19 +4919,19 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "film_projector": {
+  "projector": {
     "keywords": ["video", "tape", "record", "movie"],
     "char": "📽",
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "film_strip": {
+  "film": {
     "keywords": ["movie"],
     "char": "🎞",
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "telephone_receiver": {
+  "telephone": {
     "keywords": ["technology", "communication", "dial"],
     "char": "📞",
     "fitzpatrick_scale": false,
@@ -5051,7 +5057,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "wastebasket": {
+  "garbage": {
     "keywords": ["bin", "trash", "rubbish", "garbage", "toss"],
     "char": "🗑",
     "fitzpatrick_scale": false,
@@ -5219,7 +5225,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "funeral_urn": {
+  "urn": {
     "keywords": ["dead", "die", "death", "rip", "ashes"],
     "char": "⚱",
     "fitzpatrick_scale": false,
@@ -5357,7 +5363,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "bellhop_bell": {
+  "bell": {
     "keywords": ["service"],
     "char": "🛎",
     "fitzpatrick_scale": false,
@@ -5393,7 +5399,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "shopping_cart": {
+  "cart": {
     "keywords": ["trolley"],
     "char": "🛒",
     "fitzpatrick_scale": false,
@@ -5423,13 +5429,13 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "confetti_ball": {
+  "party": {
     "keywords": ["festival", "party", "birthday", "circus"],
     "char": "🎊",
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "tada": {
+  "yay": {
     "keywords": ["party", "congratulations", "birthday", "magic", "circus", "celebration"],
     "char": "🎉",
     "fitzpatrick_scale": false,
@@ -5753,7 +5759,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "straight_ruler": {
+  "ruler": {
     "keywords": ["stationery", "calculate", "length", "math", "school", "drawing", "architect", "sketch"],
     "char": "📏",
     "fitzpatrick_scale": false,
@@ -5873,7 +5879,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "objects"
   },
-  "heart": {
+  "love": {
     "keywords": ["love", "like", "valentines"],
     "char": "❤️",
     "fitzpatrick_scale": false,
@@ -6377,7 +6383,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "symbols"
   },
-  "exclamation": {
+  "now!": {
     "keywords": ["heavy_exclamation_mark", "danger", "surprise", "punctuation", "wow", "warning"],
     "char": "❗",
     "fitzpatrick_scale": false,
@@ -7421,7 +7427,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "symbols"
   },
-  "clock10": {
+  "clock": {
     "keywords": ["time", "late", "early", "schedule"],
     "char": "🕙",
     "fitzpatrick_scale": false,
@@ -8159,7 +8165,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "flags"
   },
-  "it": {
+  "italy": {
     "keywords": ["italy", "flag", "nation", "country", "banner"],
     "char": "🇮🇹",
     "fitzpatrick_scale": false,
@@ -8177,7 +8183,7 @@ module.exports = {
     "fitzpatrick_scale": false,
     "category": "flags"
   },
-  "jp": {
+  "japan": {
     "keywords": ["japanese", "nation", "flag", "country", "banner"],
     "char": "🇯🇵",
     "fitzpatrick_scale": false,
